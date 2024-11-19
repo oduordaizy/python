@@ -1,9 +1,12 @@
 
-my_list = [1, 30, 19000]
+my_list = []
 
-my_list.append(15)
+my_list.append(10, 20, 30, 40)
 
-list2 = [50, 60]
+#Inserting the value 15 at the second position.
+my_list.append(1, 15)
+
+list2 = [50, 60, 70]
 
 my_list.extend(list2)
 print("Orginal list: ", my_list)
